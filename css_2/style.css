@@ -1,0 +1,26 @@
+.Text{
+    text-align: justify;
+}
+.left {
+    width: 200px;
+    height: 100px;
+    float: left;
+    clear: both;
+    margin: 0 10px 10px 0;
+}
+
+.right {
+    width: 200px;
+    height: 100px;
+    float: right;
+    clear: both;
+    margin: 10px 0 10px 10px;
+}
+  
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
